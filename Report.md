@@ -42,7 +42,6 @@ The purpose of this analysis is to develop a deep learning model for Alphabet So
 
 ### Conclusion:
 
-## Summary:
 The deep learning model successfully achieved a **72.85% accuracy** on the test data, with a **loss of 0.556**. While this performance is acceptable for certain use cases, further refinement is necessary to achieve higher accuracy for more critical tasks.
 
 ### Recommendation:
