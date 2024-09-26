@@ -39,9 +39,11 @@ for app in application_types_to_replace:
 
 # Check to make sure replacement was successful
 application_df['APPLICATION_TYPE'].value_counts()
+```
+![app_type](https://github.com/omidk414/deep-learning-challenge/blob/main/images/app_type.png)
+
 
 Model Compilation, Training, and Evaluation
-```
 
 This step involves:
 
@@ -55,6 +57,8 @@ python
 classification_count = application_df['CLASSIFICATION'].value_counts()
 classification_count
 ```
+![count](https://github.com/omidk414/deep-learning-challenge/blob/main/images/classification_count.png)
+
 
 Example code for creating the neural network:
 
@@ -79,6 +83,7 @@ nn.add(tf.keras.layers.Dense(units=1, activation="sigmoid"))
 # Check the structure of the model
 nn.summary()
 ```
+![model](https://github.com/omidk414/deep-learning-challenge/blob/main/images/model.png)
 
 **Model Optimization**:
 To achieve the target accuracy of 75% or higher, various optimization techniques are employed:
@@ -87,6 +92,9 @@ To achieve the target accuracy of 75% or higher, various optimization techniques
     Modifying the neural network architecture (adding neurons, layers, etc.).
     Experimenting with different activation functions.
     Adjusting the number of epochs in training.
+![epoch](https://github.com/omidk414/deep-learning-challenge/blob/main/images/epoch.png)
+![accuracy](https://github.com/omidk414/deep-learning-challenge/blob/main/images/eval.png)
+
 
 **File Descriptions**:
 
